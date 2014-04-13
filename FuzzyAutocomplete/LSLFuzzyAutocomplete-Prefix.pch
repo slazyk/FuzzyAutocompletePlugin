@@ -1,0 +1,19 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+
+    #import <Cocoa/Cocoa.h>
+    #import "NSBundle+LSLProperties.h"
+
+    // Used in LSLDebug
+    #define DOLog(fmt, ...) NSLog((@"LSLFuzzyAutocomplete: " fmt), ##__VA_ARGS__);
+    #define DODLog(fil, lin, fun, fmt, ...) NSLog((@"%s:%d %s " fmt), fil, lin, fun, ##__VA_ARGS__);
+
+    #import "LSLDebug.h"
+
+#endif
+

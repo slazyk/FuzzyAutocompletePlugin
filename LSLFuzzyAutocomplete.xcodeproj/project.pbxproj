@@ -10,11 +10,20 @@
 		580BC1EC181243D600D53F1F /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580BC1EA181243D600D53F1F /* DVTFoundation.framework */; };
 		580BC1ED181243D600D53F1F /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580BC1EB181243D600D53F1F /* DVTKit.framework */; };
 		58501C0618165B0600AA3179 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 58501C0518165B0600AA3179 /* JRSwizzle.m */; };
-		58BA07BE18124BC40070060D /* DVTTextCompletionSession+FuzzyAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BA07BD18124BC40070060D /* DVTTextCompletionSession+FuzzyAutocomplete.m */; };
+		58BA07BE18124BC40070060D /* DVTTextCompletionSession+LSLFuzzyAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BA07BD18124BC40070060D /* DVTTextCompletionSession+LSLFuzzyAutocomplete.m */; };
 		58C3C25118110DB70031D9CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58C3C24F18110DB70031D9CD /* InfoPlist.strings */; };
-		58C3C25A181128140031D9CD /* FuzzyAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3C259181128140031D9CD /* FuzzyAutocomplete.m */; };
-		58D5555C1813A5A7008F234B /* SCTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D5555B1813A5A7008F234B /* SCTiming.m */; };
+		58C3C25A181128140031D9CD /* LSLFuzzyAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C3C259181128140031D9CD /* LSLFuzzyAutocomplete.m */; };
 		58E9F98F1813A0FE000928AF /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E9F98E1813A0FE000928AF /* IDEKit.framework */; };
+		650D4F5F18E5FCFF00F5DBEE /* LSLFuzzyAutocompleteSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 650D4F5E18E5FCFF00F5DBEE /* LSLFuzzyAutocompleteSettings.m */; };
+		65346CC7189D885C004EB7BE /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C3C24B18110DB70031D9CD /* AppKit.framework */; };
+		6540232C18F9F79700D580B3 /* LSLItemScoringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6540232B18F9F79700D580B3 /* LSLItemScoringMethod.m */; };
+		655738C818F47F1E003FD40A /* LSLTextCompletionListHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 655738C718F47F1E003FD40A /* LSLTextCompletionListHeaderView.m */; };
+		65599235189FFFD600C44208 /* DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 65599234189FFFD600C44208 /* DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.m */; };
+		657EB240189D76DC00B04AC0 /* DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.m in Sources */ = {isa = PBXBuildFile; fileRef = 657EB23F189D76DC00B04AC0 /* DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.m */; };
+		65A066A418F2CE4600B15293 /* LSLFuzzyAutocompleteSettingsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A066A318F2CE4600B15293 /* LSLFuzzyAutocompleteSettingsWindow.xib */; };
+		65AA753618F367360057D0A7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AA753518F367360057D0A7 /* QuartzCore.framework */; };
+		65E6847418F897400093A671 /* NSBundle+LSLProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E6847318F897400093A671 /* NSBundle+LSLProperties.m */; };
+		65EAE5DE18ECADF900F0974C /* LSLFuzzyAutocompleteTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EAE5DD18ECADF900F0974C /* LSLFuzzyAutocompleteTheme.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,27 +32,45 @@
 		58501C0418165B0600AA3179 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		58501C0518165B0600AA3179 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		5870150918140BB700082A37 /* DVTTextCompletionListWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextCompletionListWindowController.h; sourceTree = "<group>"; };
-		58BA07BC18124BC40070060D /* DVTTextCompletionSession+FuzzyAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionSession+FuzzyAutocomplete.h"; sourceTree = "<group>"; };
-		58BA07BD18124BC40070060D /* DVTTextCompletionSession+FuzzyAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextCompletionSession+FuzzyAutocomplete.m"; sourceTree = "<group>"; };
+		58BA07BC18124BC40070060D /* DVTTextCompletionSession+LSLFuzzyAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "DVTTextCompletionSession+LSLFuzzyAutocomplete.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		58BA07BD18124BC40070060D /* DVTTextCompletionSession+LSLFuzzyAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "DVTTextCompletionSession+LSLFuzzyAutocomplete.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		58BA07BF18124BD50070060D /* DVTTextCompletionSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextCompletionSession.h; sourceTree = "<group>"; };
 		58BA07C018124BFC0070060D /* DVTInvalidation-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVTInvalidation-Protocol.h"; sourceTree = "<group>"; };
 		58BA07C118124C0A0070060D /* DVTTextCompletionDataSourceDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionDataSourceDelegate-Protocol.h"; sourceTree = "<group>"; };
-		58C3C24318110DB70031D9CD /* FuzzyAutocomplete.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuzzyAutocomplete.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C3C24318110DB70031D9CD /* LSLFuzzyAutocomplete.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLFuzzyAutocomplete.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C3C24918110DB70031D9CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		58C3C24A18110DB70031D9CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		58C3C24B18110DB70031D9CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		58C3C24E18110DB70031D9CD /* FuzzyAutocomplete-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FuzzyAutocomplete-Info.plist"; sourceTree = "<group>"; };
+		58C3C24E18110DB70031D9CD /* LSLFuzzyAutocomplete-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LSLFuzzyAutocomplete-Info.plist"; sourceTree = "<group>"; };
 		58C3C25018110DB70031D9CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		58C3C25218110DB70031D9CD /* FuzzyAutocomplete-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FuzzyAutocomplete-Prefix.pch"; sourceTree = "<group>"; };
-		58C3C258181128140031D9CD /* FuzzyAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuzzyAutocomplete.h; sourceTree = "<group>"; };
-		58C3C259181128140031D9CD /* FuzzyAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuzzyAutocomplete.m; sourceTree = "<group>"; };
-		58D5555A1813A5A7008F234B /* SCTiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTiming.h; sourceTree = "<group>"; };
-		58D5555B1813A5A7008F234B /* SCTiming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTiming.m; sourceTree = "<group>"; };
+		58C3C25218110DB70031D9CD /* LSLFuzzyAutocomplete-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "LSLFuzzyAutocomplete-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		58C3C258181128140031D9CD /* LSLFuzzyAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLFuzzyAutocomplete.h; sourceTree = "<group>"; };
+		58C3C259181128140031D9CD /* LSLFuzzyAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLFuzzyAutocomplete.m; sourceTree = "<group>"; };
 		58DA96F21813D38A00D0082B /* DVTTextCompletionInlinePreviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextCompletionInlinePreviewController.h; sourceTree = "<group>"; };
 		58DA96F31813D48D00D0082B /* DVTTextCompletionItem-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionItem-Protocol.h"; sourceTree = "<group>"; };
 		58E391E7181289A100C18DBF /* IDEIndexCompletionItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEIndexCompletionItem.h; sourceTree = "<group>"; };
 		58E9F98D18139EC5000928AF /* IDEOpenQuicklyPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEOpenQuicklyPattern.h; sourceTree = "<group>"; };
 		58E9F98E1813A0FE000928AF /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		650D4F5D18E5FCFF00F5DBEE /* LSLFuzzyAutocompleteSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLFuzzyAutocompleteSettings.h; sourceTree = "<group>"; };
+		650D4F5E18E5FCFF00F5DBEE /* LSLFuzzyAutocompleteSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLFuzzyAutocompleteSettings.m; sourceTree = "<group>"; };
+		6540232A18F9F79700D580B3 /* LSLItemScoringMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLItemScoringMethod.h; sourceTree = "<group>"; };
+		6540232B18F9F79700D580B3 /* LSLItemScoringMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLItemScoringMethod.m; sourceTree = "<group>"; };
+		655738C618F47F1E003FD40A /* LSLTextCompletionListHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLTextCompletionListHeaderView.h; sourceTree = "<group>"; };
+		655738C718F47F1E003FD40A /* LSLTextCompletionListHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LSLTextCompletionListHeaderView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65599233189FFFD600C44208 /* DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		65599234189FFFD600C44208 /* DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		656B790818F8680100D2C6D7 /* LSLDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSLDebug.h; sourceTree = "<group>"; };
+		657EB23E189D76DC00B04AC0 /* DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.h"; sourceTree = "<group>"; };
+		657EB23F189D76DC00B04AC0 /* DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		658A7C8218A13279007655E0 /* DVTPreferenceSet-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVTPreferenceSet-Protocol.h"; sourceTree = "<group>"; };
+		65A066A318F2CE4600B15293 /* LSLFuzzyAutocompleteSettingsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSLFuzzyAutocompleteSettingsWindow.xib; sourceTree = "<group>"; };
+		65AA753518F367360057D0A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		65DB740C18A12FBF001CDD83 /* DVTFontAndColorTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFontAndColorTheme.h; sourceTree = "<group>"; };
+		65E6847218F897400093A671 /* NSBundle+LSLProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LSLProperties.h"; sourceTree = "<group>"; };
+		65E6847318F897400093A671 /* NSBundle+LSLProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LSLProperties.m"; sourceTree = "<group>"; };
+		65EAE5DC18ECADF900F0974C /* LSLFuzzyAutocompleteTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLFuzzyAutocompleteTheme.h; sourceTree = "<group>"; };
+		65EAE5DD18ECADF900F0974C /* LSLFuzzyAutocompleteTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLFuzzyAutocompleteTheme.m; sourceTree = "<group>"; };
+		B5F606935698481482E983FB /* libPods-FuzzyAutocomplete.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FuzzyAutocomplete.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +79,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				580BC1EC181243D600D53F1F /* DVTFoundation.framework in Frameworks */,
+				65AA753618F367360057D0A7 /* QuartzCore.framework in Frameworks */,
+				65346CC7189D885C004EB7BE /* AppKit.framework in Frameworks */,
 				58E9F98F1813A0FE000928AF /* IDEKit.framework in Frameworks */,
 				580BC1ED181243D600D53F1F /* DVTKit.framework in Frameworks */,
 			);
@@ -71,6 +100,8 @@
 				58BA07BF18124BD50070060D /* DVTTextCompletionSession.h */,
 				58E391E7181289A100C18DBF /* IDEIndexCompletionItem.h */,
 				58E9F98D18139EC5000928AF /* IDEOpenQuicklyPattern.h */,
+				658A7C8218A13279007655E0 /* DVTPreferenceSet-Protocol.h */,
+				65DB740C18A12FBF001CDD83 /* DVTFontAndColorTheme.h */,
 			);
 			name = "Xcode Headers";
 			path = ../XcodeHeaders;
@@ -88,7 +119,7 @@
 		58C3C24418110DB70031D9CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58C3C24318110DB70031D9CD /* FuzzyAutocomplete.xcplugin */,
+				58C3C24318110DB70031D9CD /* LSLFuzzyAutocomplete.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,10 +127,12 @@
 		58C3C24518110DB70031D9CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65AA753518F367360057D0A7 /* QuartzCore.framework */,
 				58E9F98E1813A0FE000928AF /* IDEKit.framework */,
 				580BC1EA181243D600D53F1F /* DVTFoundation.framework */,
 				580BC1EB181243D600D53F1F /* DVTKit.framework */,
 				58C3C24818110DB70031D9CD /* Other Frameworks */,
+				B5F606935698481482E983FB /* libPods-FuzzyAutocomplete.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,10 +153,23 @@
 				58D555591813A59D008F234B /* Utilities */,
 				580BC1E5181172D100D53F1F /* Xcode Headers */,
 				58C3C24D18110DB70031D9CD /* Supporting Files */,
-				58C3C258181128140031D9CD /* FuzzyAutocomplete.h */,
-				58C3C259181128140031D9CD /* FuzzyAutocomplete.m */,
-				58BA07BC18124BC40070060D /* DVTTextCompletionSession+FuzzyAutocomplete.h */,
-				58BA07BD18124BC40070060D /* DVTTextCompletionSession+FuzzyAutocomplete.m */,
+				58C3C258181128140031D9CD /* LSLFuzzyAutocomplete.h */,
+				58C3C259181128140031D9CD /* LSLFuzzyAutocomplete.m */,
+				650D4F5D18E5FCFF00F5DBEE /* LSLFuzzyAutocompleteSettings.h */,
+				650D4F5E18E5FCFF00F5DBEE /* LSLFuzzyAutocompleteSettings.m */,
+				65EAE5DC18ECADF900F0974C /* LSLFuzzyAutocompleteTheme.h */,
+				65EAE5DD18ECADF900F0974C /* LSLFuzzyAutocompleteTheme.m */,
+				6540232A18F9F79700D580B3 /* LSLItemScoringMethod.h */,
+				6540232B18F9F79700D580B3 /* LSLItemScoringMethod.m */,
+				58BA07BC18124BC40070060D /* DVTTextCompletionSession+LSLFuzzyAutocomplete.h */,
+				58BA07BD18124BC40070060D /* DVTTextCompletionSession+LSLFuzzyAutocomplete.m */,
+				657EB23E189D76DC00B04AC0 /* DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.h */,
+				657EB23F189D76DC00B04AC0 /* DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.m */,
+				65599233189FFFD600C44208 /* DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.h */,
+				65599234189FFFD600C44208 /* DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.m */,
+				655738C618F47F1E003FD40A /* LSLTextCompletionListHeaderView.h */,
+				655738C718F47F1E003FD40A /* LSLTextCompletionListHeaderView.m */,
+				65A066A318F2CE4600B15293 /* LSLFuzzyAutocompleteSettingsWindow.xib */,
 			);
 			path = FuzzyAutocomplete;
 			sourceTree = "<group>";
@@ -131,9 +177,9 @@
 		58C3C24D18110DB70031D9CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				58C3C24E18110DB70031D9CD /* FuzzyAutocomplete-Info.plist */,
+				58C3C24E18110DB70031D9CD /* LSLFuzzyAutocomplete-Info.plist */,
 				58C3C24F18110DB70031D9CD /* InfoPlist.strings */,
-				58C3C25218110DB70031D9CD /* FuzzyAutocomplete-Prefix.pch */,
+				58C3C25218110DB70031D9CD /* LSLFuzzyAutocomplete-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,8 +189,9 @@
 			children = (
 				58501C0418165B0600AA3179 /* JRSwizzle.h */,
 				58501C0518165B0600AA3179 /* JRSwizzle.m */,
-				58D5555A1813A5A7008F234B /* SCTiming.h */,
-				58D5555B1813A5A7008F234B /* SCTiming.m */,
+				656B790818F8680100D2C6D7 /* LSLDebug.h */,
+				65E6847218F897400093A671 /* NSBundle+LSLProperties.h */,
+				65E6847318F897400093A671 /* NSBundle+LSLProperties.m */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -152,9 +199,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58C3C24218110DB70031D9CD /* FuzzyAutocomplete */ = {
+		58C3C24218110DB70031D9CD /* LSLFuzzyAutocomplete */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58C3C25518110DB70031D9CD /* Build configuration list for PBXNativeTarget "FuzzyAutocomplete" */;
+			buildConfigurationList = 58C3C25518110DB70031D9CD /* Build configuration list for PBXNativeTarget "LSLFuzzyAutocomplete" */;
 			buildPhases = (
 				58C3C23F18110DB70031D9CD /* Sources */,
 				58C3C24018110DB70031D9CD /* Frameworks */,
@@ -164,9 +211,9 @@
 			);
 			dependencies = (
 			);
-			name = FuzzyAutocomplete;
+			name = LSLFuzzyAutocomplete;
 			productName = FuzzyAutocomplete;
-			productReference = 58C3C24318110DB70031D9CD /* FuzzyAutocomplete.xcplugin */;
+			productReference = 58C3C24318110DB70031D9CD /* LSLFuzzyAutocomplete.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -176,9 +223,9 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = Sproutcube;
+				ORGANIZATIONNAME = "";
 			};
-			buildConfigurationList = 58C3C23E18110DB70031D9CD /* Build configuration list for PBXProject "FuzzyAutocomplete" */;
+			buildConfigurationList = 58C3C23E18110DB70031D9CD /* Build configuration list for PBXProject "LSLFuzzyAutocomplete" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,7 +237,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58C3C24218110DB70031D9CD /* FuzzyAutocomplete */,
+				58C3C24218110DB70031D9CD /* LSLFuzzyAutocomplete */,
 			);
 		};
 /* End PBXProject section */
@@ -201,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58C3C25118110DB70031D9CD /* InfoPlist.strings in Resources */,
+				65A066A418F2CE4600B15293 /* LSLFuzzyAutocompleteSettingsWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,10 +259,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D5555C1813A5A7008F234B /* SCTiming.m in Sources */,
-				58BA07BE18124BC40070060D /* DVTTextCompletionSession+FuzzyAutocomplete.m in Sources */,
+				65599235189FFFD600C44208 /* DVTTextCompletionInlinePreviewController+LSLFuzzyAutocomplete.m in Sources */,
+				65E6847418F897400093A671 /* NSBundle+LSLProperties.m in Sources */,
+				58BA07BE18124BC40070060D /* DVTTextCompletionSession+LSLFuzzyAutocomplete.m in Sources */,
+				6540232C18F9F79700D580B3 /* LSLItemScoringMethod.m in Sources */,
 				58501C0618165B0600AA3179 /* JRSwizzle.m in Sources */,
-				58C3C25A181128140031D9CD /* FuzzyAutocomplete.m in Sources */,
+				58C3C25A181128140031D9CD /* LSLFuzzyAutocomplete.m in Sources */,
+				650D4F5F18E5FCFF00F5DBEE /* LSLFuzzyAutocompleteSettings.m in Sources */,
+				65EAE5DE18ECADF900F0974C /* LSLFuzzyAutocompleteTheme.m in Sources */,
+				657EB240189D76DC00B04AC0 /* DVTTextCompletionListWindowController+LSLFuzzyAutocomplete.m in Sources */,
+				655738C818F47F1E003FD40A /* LSLTextCompletionListHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +357,7 @@
 		58C3C25618110DB70031D9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
@@ -310,12 +365,14 @@
 					"$(inherited)",
 					"$(DEVELOPER_DIR)/../SharedFrameworks",
 					"$(DEVELOPER_DIR)/../Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FuzzyAutocomplete/FuzzyAutocomplete-Prefix.pch";
-				INFOPLIST_FILE = "FuzzyAutocomplete/FuzzyAutocomplete-Info.plist";
+				GCC_PREFIX_HEADER = "FuzzyAutocomplete/LSLFuzzyAutocomplete-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "FuzzyAutocomplete/LSLFuzzyAutocomplete-Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LSLFuzzyAutocomplete;
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
@@ -323,6 +380,7 @@
 		58C3C25718110DB70031D9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
@@ -330,12 +388,14 @@
 					"$(inherited)",
 					"$(DEVELOPER_DIR)/../SharedFrameworks",
 					"$(DEVELOPER_DIR)/../Frameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FuzzyAutocomplete/FuzzyAutocomplete-Prefix.pch";
-				INFOPLIST_FILE = "FuzzyAutocomplete/FuzzyAutocomplete-Info.plist";
+				GCC_PREFIX_HEADER = "FuzzyAutocomplete/LSLFuzzyAutocomplete-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "FuzzyAutocomplete/LSLFuzzyAutocomplete-Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LSLFuzzyAutocomplete;
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
@@ -343,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58C3C23E18110DB70031D9CD /* Build configuration list for PBXProject "FuzzyAutocomplete" */ = {
+		58C3C23E18110DB70031D9CD /* Build configuration list for PBXProject "LSLFuzzyAutocomplete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58C3C25318110DB70031D9CD /* Debug */,
@@ -352,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58C3C25518110DB70031D9CD /* Build configuration list for PBXNativeTarget "FuzzyAutocomplete" */ = {
+		58C3C25518110DB70031D9CD /* Build configuration list for PBXNativeTarget "LSLFuzzyAutocomplete" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58C3C25618110DB70031D9CD /* Debug */,
