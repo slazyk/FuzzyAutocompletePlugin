@@ -1,3 +1,5 @@
+#### Important: this fork is discontinued as it became the official version 2.0 of the [FuzzyAutocomplete/FuzzyAutocompletePlugin](http://github.com/chendo/FuzzyAutocompletePlugin)
+
 # Fuzzy Autocomplete for Xcode
 
 ## `LSLFuzzyAutocomplete 2.0` 
